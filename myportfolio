@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jai Mata Di</title>
+	<!-- css -->
+	<style type="text/css">
+	body
+	{
+     background-color: lightblue;
+	}
+    </style>
+    <!-- javascript -->
+	<script type="text/javascript">
+	function sayHello() 
+	 {
+		alert("Hello There!")
+	 }
+	</script>
+</head>
+<body>
+	current time:<span id="txt"></span>
+	<script type="text/javascript">
+	var today=new Date();
+	document.write("getDate():"+today.getDate());
+        var h=today.get Hours();
+        var m=today.get Minutes();
+        var s=today.get Seconds();
+        document.getElementById("txt").innerHTML=h+":"m+":"s;
+    </script>
+<form>
+	First name:<br>
+	<input type="text" name="firstname"><br>
+	Last name:<br>
+	<input type="text" name="lastname"><br>
+	Password:<br>
+	<input type="password" name="pwd">
+</form>
+<form>
+	<input type="radio" name="gender" value="male" checked>male<br>
+	<input type="radio" name="gender" value="female">Female<br>
+	<input type="radio" name="gender" value="other">Other
+</form>
+<form
+name="input"
+action="D:\shiv.html",
+method="get">
+<table>
+	<tr>
+		<td>Class</td>
+		<td><select name="Class">
+		<option value="-1"selected>Select</option>
+		<option value="SL">SL</option>
+		<option value="3A">3A</option>
+		<option value="2A">2A</option>
+		<option value="1A">1A</option>
+		</select>	
+		</td>
+	</tr>
+</table>
+<table>
+<tr>
+<td><input type="submit" value="submit"><br></td>
+<td><input type="Reset"><br></td>
+</tr>
+</table>
+<script type="text/javascript">
+		document.write("Hello World!")
+</script>
+	<input type="button" onclick="sayHello()" value ="SayHello"><br>
+</form>
+</body>
+</html>
